@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="headBar">
+        <h3>Todo List</h3>
+      </div>
+
+      <div class="contain">
+        <ul id="list">
+          <!-- <li id="listItems"><div><input type="checkbox" id="toggle"> Name</div><img src="./Assets/trash-can-solid.svg" id="delete"></li> -->
+        </ul>
+      </div>
+
+      <div class="click">
+        <form action="" id="addForm">
+          <input type="text" id="input" />
+          <input type="submit" value="Add Task" name="add" id="add" />
+        </form>
+        <div class="buttons" id="buttons">
+          <button id="clearList">
+            <img src="./Assets/rotate-left-solid.svg" />
+            Clear List
+          </button>
+          <button id="addTask"><h3>+ Add Task</h3></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
